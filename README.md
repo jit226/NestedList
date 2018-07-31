@@ -1,14 +1,12 @@
 
-//View: Index.cshtml
+.//View: Index.cshtml
 
 @model HtmlString
 @{
     ViewBag.Title = "Index";
 }
-
-<h2>Index</h2>
-
 @Model
+
 
 //Model: Employee.cs
 
@@ -16,7 +14,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-
 namespace NestedList.Models
 {
     public class Employee
@@ -47,13 +44,13 @@ namespace NestedList.Models
 
 //Controller:HomeController
 
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using NestedList.Models;
-
 namespace NestedList.Controllers
 {
     public class HomeController : Controller
