@@ -1,15 +1,15 @@
 
-.//View: Index.cshtml
-
+###### View: Index.cshtml
+````
 @model HtmlString
 @{
     ViewBag.Title = "Index";
 }
 @Model
+````
 
-
-//Model: Employee.cs
-
+###### Model: Employee.cs
+```
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,10 +41,10 @@ namespace NestedList.Models
         }
     }
 }
+````
+###### Controller: HomeController
 
-//Controller:HomeController
-
-
+```
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -87,3 +87,4 @@ namespace NestedList.Controllers
         }
     }
 }
+````
